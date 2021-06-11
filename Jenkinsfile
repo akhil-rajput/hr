@@ -12,7 +12,7 @@ bat'mvn test'
   
   
 stage ('Install Stage') {
-bat'mvn clean install'
+bat'mvn clean --file *.pom install'
 }
 
 
