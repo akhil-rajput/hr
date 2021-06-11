@@ -9,7 +9,7 @@ node{
   
   
 stage ('Install Stage') {
-bat'mvn  - f ("hr\\pom.xml")install'
+bat'mvn  - f install'
 }
 
 
