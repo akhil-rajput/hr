@@ -1,7 +1,7 @@
 node{  
   stage('SCM checkout'){
     
-   git:'https://github.com/akhil-rajput/hr/' 
+   git'https://github.com/akhil-rajput/hr/' 
    
   }
   
@@ -12,7 +12,7 @@ bat'mvn test'
   
   
 stage ('Install Stage') {
-bat'mvn install'
+bat'mvn clean install'
 }
 
 
