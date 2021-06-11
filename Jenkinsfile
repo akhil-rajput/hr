@@ -6,13 +6,10 @@ node{
   }
   
 
-  stage('test stage'){
-bat'mvn test'
-}
   
   
 stage ('Install Stage') {
-bat'mvn clean --file *.pom install'
+bat'mvn install'
 }
 
 
