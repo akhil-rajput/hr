@@ -9,7 +9,7 @@ node{
   
   
 stage ('Install Stage') {
-bat'mvn install'
+bat'mvn  - f ("C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\hrSpring@2\hr\\pom.xml")install'
 }
 
 
