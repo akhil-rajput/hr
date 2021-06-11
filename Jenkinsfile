@@ -5,12 +5,7 @@ node{
    
   }
   
- stage ('Compile Stage') {
 
-bat'mvn clean compile'
-
-
- }
   stage('test stage'){
 bat'mvn test'
 }
