@@ -1,7 +1,7 @@
 node{  
   stage('SCM checkout'){
     
-   git:'https://github.com/akhil-rajput/hr' 
+   git'https://github.com/akhil-rajput/hr' 
    
   }
   
