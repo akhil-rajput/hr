@@ -1,7 +1,7 @@
 node{  
   stage('SCM checkout'){
     
-   bat'git clone https://github.com/akhil-rajput/hr' 
+   git:'https://github.com/akhil-rajput/hr' 
    
   }
   
